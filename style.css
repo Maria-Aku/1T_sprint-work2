@@ -27,13 +27,14 @@
 
 }
 
-.main,
-.footer {
+.main {
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto';
 }
-
+.footer {
+    font-family: 'Roboto';
+}
 
 .header_item,
 .header_nav,
@@ -252,6 +253,7 @@ a {
     font-size: 36px;
     max-width: 340px;
     line-height: 46px;
+    padding-top: 50px;
 }
 
 .footer_text {
@@ -270,6 +272,7 @@ a {
 
 .footer_content {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer_btn {
@@ -337,7 +340,9 @@ a {
     color: rgb(255, 255, 255);
     opacity: 0.4;
 }
-
+.footer_group{
+    background-color: #316099;
+}
 
 /* анимация */
 .header_btn:hover,
